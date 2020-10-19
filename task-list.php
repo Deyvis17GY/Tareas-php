@@ -1,13 +1,13 @@
 <?php
 include('database.php');
-date_default_timezone_set  ('America/Bogota');
+/*date_default_timezone_set  ('America/Bogota');
 $time2=date('Y-m-d, h:i:s', time());
 $time1=date('h:i:s',time());
 $time3=date('g:ia');
 $time4=date('G:i');
 $zona = new DateTime();
 $zona->format('Y/m/d - G:i:s');
-
+*/
 $query= "SELECT * FROM task";
 $result= mysqli_query($conectar,$query);
 
