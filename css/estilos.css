@@ -1,0 +1,40 @@
+#mensaje{
+
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+
+}
+
+@media (max-width:500px){
+    #main-container{
+    }
+    #nav{
+      width: 100%;
+    }
+    #titulo{
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+      display: flex;
+    }
+    #form{
+      width: 100%;
+      display: flex;
+      justify-content:space-between;
+      margin: 0;
+      padding: 0;
+    }
+    #form2{
+      width: 100%;
+      justify-content: space-between;
+    }
+    #search{
+      text-align: center;
+      width: 50%;
+    }
+    #buscar{
+      width: 40%;
+    }
+
+}
